@@ -15,7 +15,7 @@ public interface SellerDao {
 	void deleteById(Seller id);
 
 	// Retorna um Department pelo ID se existir caso não existir retrna nulo
-	Seller findById(Seller id);
+	Seller findById(Integer id);
 
 	// Retorna todos os departamentos em uma lista
 	List<Seller> findAll();
