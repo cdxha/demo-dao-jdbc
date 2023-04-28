@@ -1,0 +1,43 @@
+// pacote de implementação dos Dao
+package model.dao.impl;
+
+import java.util.List;
+
+import model.dao.SellerDao;
+import model.entities.Seller;
+
+// utilizando a tecnologia JDBC
+public class SellerDaoJDBC implements SellerDao {
+
+	@Override
+	public void insert(Seller obj) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Seller obj) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteById(Seller id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Seller findById(Seller id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Seller> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}
