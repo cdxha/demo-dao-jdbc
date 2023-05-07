@@ -13,7 +13,7 @@ public interface SellerDao {
 
 	void update(Seller obj);
 
-	void deleteById(Seller id);
+	void deleteById(Integer id);
 
 	// Retorna um Department pelo ID se existir caso não existir retrna nulo
 	Seller findById(Integer id);
